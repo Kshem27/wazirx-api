@@ -1,3 +1,4 @@
+/* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto&display=swap');
 body {
@@ -9,6 +10,7 @@ body {
 	width: 80%;
 	margin: 2% auto;
 }
+/* TABLE CSS */
 #table {
 	font-weight: 400;
 	margin-top: 5%;
@@ -35,6 +37,14 @@ thead {
 tbody tr {
 	background: #2f3241;
 }
+/* START CONTAINER */
+.start {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+/* TEXT CSS */
 #text {
 	width: 33%;
 	line-height: 0.5rem;
@@ -55,12 +65,7 @@ p {
 p span {
 	color: #3bbfba;
 }
-.start {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
-}
+/* DROPDOWNS */
 #dropdowns {
 	text-align: center;
 	width: 33%;
@@ -77,6 +82,7 @@ p span {
 	font-size: 20px;
 	margin: 0 10px;
 }
+/* RIGHT CONTAINER */
 .right {
 	width: 33%;
 	display: flex;
@@ -102,6 +108,7 @@ button {
 	border-radius: 10px;
 	color: white;
 }
+/* SLIDER CSS */
 .switch {
 	position: relative;
 	display: inline-block;
@@ -157,6 +164,7 @@ input:checked + .slider:before {
 .slider.round:before {
 	border-radius: 50%;
 }
+/* TABLE BORDER */
 tbody tr:first-child td:first-child {
 	border-top-left-radius: 10px;
 }
