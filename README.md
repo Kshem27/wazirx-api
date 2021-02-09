@@ -1,7 +1,7 @@
 ## Warzix API
 **Use** `npm run start` to run the application.
 - It uses request-promise module to get data from api [Warzix API](https://api.wazirx.com/api/v2/tickers).
-- Fetch and display top 10 results from API and displays name, last, buy, Sell, volume, base_unit.
+- Fetches top 10 results from API and displays name, last, buy, Sell, volume, base_unit.
 - Uses HTML and CSS for frontend and NodeJS for backend
 
 ### ScreenShots
