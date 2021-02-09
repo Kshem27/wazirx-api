@@ -4,6 +4,6 @@
 - Uses HTML and css for frontend and NodeJS for backend
 
 ### ScreenShots
-- ![Screenshot](/screenshots/screen1.png)
+ ![Screenshot](/screenshots/screen1.png)
 
-- ![Screenshot](/screenshots/screen2.png)
+ ![Screenshot](/screenshots/screen2.png)
